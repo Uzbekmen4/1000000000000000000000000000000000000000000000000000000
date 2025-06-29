@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1220px;
+    margin: 0 auto;
+}
+header{
+    background-color: black;
+}  
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.jj{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+select{
+    background-color: black;
+    color: white;
+    border: none;
+    font-size: 20px;
+}
+.logo{
+    width: 60px;
+}
+.btn
+{
+    padding: 24px 30px;
+    color: black;
+    border: none;
+    background-color: #F1A900;
+}
+nav{
+    background-color:#222222;
+    padding: 15px;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+.hero{
+    height: 797px;
+    background-image: url("./026b441a88dfc0194633755f033f7f553dfded55\ \(1\).png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding-top: 300px;
+}
+.btn1{
+    width: 235px;
+    height: 73px;
+    background-color: #F1A90054;
+    color: black;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 100%;
+    border: none;
+}
+.btn2{
+    width: 235px;
+    height: 73px;
+    background-color: black;
+    color: white;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 100%;
+    border: none;
+    margin-left: 50px;
+}
+h1{
+    font-weight: 700;
+    font-size: 64px;
+    width: 986px;
+    height: 202px;
+    color: white;
+    background-color: #F1A90054;
+    padding: 61px 20px;
+    margin: 20px auto;
+}
+
